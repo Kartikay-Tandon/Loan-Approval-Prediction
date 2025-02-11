@@ -1,9 +1,9 @@
 # Loan-Approval-Prediction
-#Overview
+# Overview
 
 This project focuses on predicting loan approvals using machine learning models, specifically Random Forest and XGBoost. By leveraging historical loan application data, the model aims to determine whether a loan should be approved or rejected based on key applicant features.
 
-#Features
+# Features
 
 Utilizes Random Forest and XGBoost for accurate loan approval prediction.
 
@@ -13,7 +13,7 @@ Implements feature engineering to improve prediction accuracy.
 
 Includes model evaluation metrics such as accuracy, precision, recall, and F1-score.
 
-#Dataset
+# Dataset
 
 The dataset consists of historical loan application records with features such as:
 
@@ -32,7 +32,7 @@ loan_status – Target variable indicating loan approval status (0: Not approved
 
 
 
-#Usage
+# Usage
 
 Load the dataset: The notebook provides a method to load and preprocess the data.
 
@@ -48,7 +48,7 @@ Random Forest: Provides robust performance with high interpretability.
 
 XGBoost: Offers superior accuracy and handles complex patterns in the data.
 
-#Results
+# Results
 
 The models are evaluated based on:
 
@@ -60,7 +60,7 @@ Precision, Recall, and F1-score
 
 ROC Curve and AUC Score
 
-#Future Improvements
+# Future Improvements
 
 Optimize hyperparameters using Grid Search or Bayesian Optimization.
 
